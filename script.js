@@ -22,11 +22,11 @@ let noClickCount = 0;
 
 // Arrays for changing content
 const messages = [
-    "Are you sure?",
-    "Think again!",
-    "Pwease? :(",
-    "Don't do this!",
-    "I'm gonna cry..."
+    "YOU DONT WANT ME!?",
+    "Please Think again!",
+    "Pweaseeeeeeee? :(",
+    "You'll regret this!",
+    "you want me to cry..."
 ];
 
 const images = [
@@ -64,4 +64,5 @@ yesBtn.addEventListener("click", () => {
     catImg.src = "pxlv.png";
     buttons.style.display = "none";
     finalText.style.display = "block";
+
 });
